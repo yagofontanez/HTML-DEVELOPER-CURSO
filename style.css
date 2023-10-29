@@ -1,0 +1,91 @@
+/* Reset de estilos para garantir uma base limpa */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilos para a barra de separação */
+.bar {
+    background-color: #0073e6;
+    height: 4px;
+}
+
+/* Estilos para a estrutura principal da página */
+.content {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para a barra lateral (sidebar) */
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os títulos da barra lateral */
+.sidebar h2 {
+    font-size: 24px;
+    color: #0073e6;
+}
+
+/* Estilos para os links na barra lateral */
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Estilos para a seção principal do conteúdo */
+.main {
+    flex: 2;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os títulos das seções de conteúdo */
+.main h1, .main h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+}
+
+/* Estilos para imagens */
+img {
+    max-width: 100%;
+}
+
+/* Estilos para links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
